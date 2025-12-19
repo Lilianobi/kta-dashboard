@@ -1,0 +1,13 @@
+/* src/dashboard/styles/kta-theme.css */
+
+/* Global CSS Variables for KTA Branding */
+:root {
+  --kta-blue: #0a66c2;
+  --kta-indigo: #1e3a8a;
+  --kta-accent: #14b8a6;
+}
+
+/* Global font for the site */
+body {
+  font-family: 'Inter', 'Poppins', system-ui, sans-serif;
+}

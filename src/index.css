@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* KonfirmTechAfrica brand colors */
+  --kta-blue: #005EA6;
+  --kta-blue-dark: #004b87;
+  --kta-indigo: #1e3a8a;
+  --kta-accent: #14b8a6;
+
+  /* Neutral helpers */
+  --kta-bg-light: #f8fafc;
+  --kta-border: #e5e7eb;
+}
+
+/* Global font */
+body {
+  font-family: 'Inter', 'Poppins', system-ui, sans-serif;
+  background-color: var(--kta-bg-light);
+  color: #111827;
+}
+
+
+
+/* Primary button */
+.btn-kta {
+  background: linear-gradient(
+    to right,
+    var(--kta-blue),
+    var(--kta-indigo)
+  );
+  color: #ffffff;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn-kta:hover {
+  background: linear-gradient(
+    to right,
+    var(--kta-blue-dark),
+    var(--kta-indigo)
+  );
+}
+
+.btn-kta:active {
+  transform: scale(0.98);
+}
+
+/* Solid brand blue background */
+.bg-kta {
+  background-color: var(--kta-blue);
+  color: #ffffff;
+}
+
+/* Text brand blue */
+.text-kta {
+  color: var(--kta-blue);
+}
+
+/* Border brand blue */
+.border-kta {
+  border-color: var(--kta-blue);
+}
+
+/* Card styling helper */
+.kta-card {
+  background: #ffffff;
+  border: 1px solid var(--kta-border);
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
