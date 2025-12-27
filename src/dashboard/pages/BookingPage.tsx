@@ -1,6 +1,5 @@
 // src/dashboard/pages/BookingPage.tsx
-import type { ChangeEvent, FormEvent } from 'react';
-import PageContainer from '../layout/PageContainer';
+import type {FormEvent } from 'react';
 import Input from '../components/form/Input';
 import Select from '../components/form/Select';
 
