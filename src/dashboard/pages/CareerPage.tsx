@@ -91,7 +91,7 @@ const CareerPage = () => {
             />
 
             {/* File Uploads - Side by Side */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
               <FileUpload
                 label="Upload CV / Portfolio (Optional But Recommended)"
                 id="cv-portfolio"
@@ -100,12 +100,12 @@ const CareerPage = () => {
               />
 
               <FileUpload
-                label="Upload A Short Video Why We Should Hire You"
+                label="Upload A Short Video.Briefly introduce yourself, highlight your skills and experience, explain how you work in a team, and why you want to join KonfirmTech Africa."
                 id="video"
                 onChange={handleFileChange}
                 accept="video/*"
               />
-            </div>
+         
 
             <Select label="Select Availability" name="availability" required>
               <option value="">Select Availability</option>
